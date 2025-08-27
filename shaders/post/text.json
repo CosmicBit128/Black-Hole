@@ -1,0 +1,16 @@
+{
+    "init": {
+        "write": {},
+        "value": {
+            "Sampler0": "0",
+            "Sampler1": "1",
+            "TextPos": "(4, 4)",
+            "TextSize": "self.text_size",
+            "ScreenSize": "WIN_RES"
+        }
+    },
+    "update": {
+        "write": {},
+        "value": {}
+    }
+}

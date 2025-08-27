@@ -1,0 +1,25 @@
+{
+    "init": {
+        "write": {},
+        "value": {
+            "FOV": "(H_FOV, V_FOV)",
+            "LightColor": "(0.593, 0.733, 1.0)",
+            "Sampler0": "0",
+            "Sampler1": "1",
+            "CloudMinRadius": "4.4",
+            "CloudMaxRadius": "18.0",
+            "CloudHeight": "1.3",
+            "CloudDensity": "0.7",
+            "StepSize": "0.03"
+        }
+    },
+    "update": {
+        "write": {},
+        "value": {
+            "CamDir": "self.app.player.ddir",
+            "CamPos": "self.app.player.position",
+            "Zoom": "self.app.player.zoom",
+            "Time": "self.app.time"
+        }
+    }
+}
