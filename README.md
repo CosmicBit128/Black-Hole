@@ -2,7 +2,10 @@
 
 This is a black hole simulation that I made in a couple days. It simulates how light bends and interacts with objects. I simulated the accretion disc by making a cloud around the black hole, adding a noise texture for varying density and spinning it. Maybe it isn't really realistic, but at least it looks cool. If you want to see it in action, you can download the code and run it. It uses python and some modules: `pygame`, `moderngl`, `pyglm` and `numpy`. There's also a record feature. For now, all of it is controlled in-code, but I'm planning to make more controls inside the program.
 
+<img width="1920" height="1080" alt="Black Hole" src="https://github.com/user-attachments/assets/3a6d7384-d28d-4d39-b17e-4140259555cc" />
+
 ---
+
 
 ## Usage
 
