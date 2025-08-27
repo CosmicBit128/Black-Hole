@@ -10,6 +10,7 @@ uniform float CloudMaxRadius;
 uniform float CloudHeight;
 uniform float CloudDensity;
 uniform float StepSize;
+uniform float MaxSteps;
 
 uniform vec2 FOV;
 uniform vec2 WinRes;
@@ -74,7 +75,7 @@ void main() {
     vec4 ray_col = vec4(0.0);
     vec3 old_pos = ray_pos;
     float light_strength = 0.0;
-    for (int i = 0; i < 1024; i++) {
+    for (int i = 0; i < MaxSteps; i++) {
         for (int o = 0; o < NUM_OBJECTS; o++) {
             // Calculate distance
             object obj = objects[o];

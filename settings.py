@@ -3,7 +3,7 @@ import glm
 import math
 
 # resolution
-SCALING = 3
+SCALING = 4
 WIN_RES = glm.vec2(1920, 1080)
 FULLSCREEN = True
 FLAGS = (OPENGL | DOUBLEBUF | RESIZABLE) if not FULLSCREEN else (OPENGL | DOUBLEBUF | FULLSCREEN)

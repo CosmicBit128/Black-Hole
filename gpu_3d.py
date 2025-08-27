@@ -48,9 +48,9 @@ class Renderer:
                 'ffmpeg', '-y',
                 '-f', 'rawvideo',
                 '-pixel_format', 'rgb24',
-                '-video_size', f'{int(WIN_RES.x*SCALING)}x{int(WIN_RES.y*SCALING)}',
+                '-video_size', f'{int(WIN_RES.x)}x{int(WIN_RES.y)}',
                 '-framerate', f'{self.fps}',
-                '-i', '-', '-c:v', 'libx264', 'blackhole11.mp4'
+                '-i', '-', '-c:v', 'libx264', 'blackhole.mp4'
             ], stdin=subprocess.PIPE)
 
     def update(self):
